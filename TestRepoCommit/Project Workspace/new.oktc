@@ -1,6 +1,11 @@
 <?xml version="1.0"?>
 <FlowSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <ImportedArtifacts />
+  <ImportedArtifacts>
+    <ImportSectionDTO>
+      <Name>48C0B6A4BE9A67B64039C85E79565A6E</Name>
+      <Value>Project Workspace\FL.okfl</Value>
+    </ImportSectionDTO>
+  </ImportedArtifacts>
   <MetaInformation>
     <DescriptionRTF />
     <ExpectedResult />
@@ -68,6 +73,15 @@
       <StepOutputArgs>
         <FlowStepOutputArgument />
       </StepOutputArgs>
+    </FlowStep>
+    <FlowStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Component_RelativePath>48C0B6A4BE9A67B64039C85E79565A6E</Component_RelativePath>
+      <StepInputArgs />
+      <StepOutputArgs />
     </FlowStep>
   </FlowSteps>
 </FlowSchema>
